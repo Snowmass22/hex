@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+      <nav>
+                <img src="hex.png">
+                <div id="nav-part2">
+                    <h4><a href="index.html">Home</a></h4>
+                </div>
+                <button>contact us</button>
+    </nav>
+    <div id="div">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h1> Send us your message</h1>
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="fe23310f-3074-49b4-bb60-e8e920266052">
+      <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" name="name">name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"> .</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" name="email">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label" name="phonenumber">phonenumber</label>
+    <input type="number" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+  <div class="mb-3 form-check">
+
+    Enter message<br>
+    <textarea type="text" placeholder="message" name="message"> </textarea>
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    
+</form>
+     
+
+
+</body>
+</html>
